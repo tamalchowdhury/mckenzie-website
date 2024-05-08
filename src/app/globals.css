@@ -7,3 +7,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.hero {
+  background: url('/hero-home.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.address {
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+}

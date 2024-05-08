@@ -77,10 +77,8 @@ export default function Home() {
         </nav>
       </header>
       <div className="content grid grid-cols-[1fr_300px] mt-6 gap-6">
-
-      <section className="hero border-[1px] ">
-        section hero image 
-        <div className="address">95 Garden Place COSTERFIELD VIC 3523</div>
+      <section className="hero border-[1px]">
+        <div className="address bg-[#841618]/50 text-white p-2 text-center text-2xl ">95 Garden Place COSTERFIELD VIC 3523</div>
       </section>
       <section className="free-quote  bg-[#E1DCC6] border-[1px] border-[#C1B594] p-5">
         <h2 className="font-bold uppercase text-xl text-[#841618] mb-4">Get A Free Quote</h2>
@@ -101,7 +99,7 @@ export default function Home() {
       </section>
       </div>
     </main>
-    <footer className="footer text-center mt-4 text-sm text-white/70">&copy; 2024 <strong>McKenzie & Paz Builders</strong> - Developed By <Link href="https://tamalchowdhury.com" className="text-[#841618]">Tamal Chowdhury</Link></footer>
+    <footer className="footer text-center mt-4 text-sm text-white/70">&copy;2024 <strong>McKenzie & Paz Builders</strong> - Developed By <Link href="https://tamalchowdhury.com" className="text-[#841618]">Tamal Chowdhury</Link></footer>
     </>
   );
 }

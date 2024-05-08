@@ -3,6 +3,7 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import FreeQuoteForm from "@/components/FreeQuoteForm"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -21,7 +22,12 @@ export default function RootLayout({
       <body className={`bg-[#78878B] h-screen ${inter.className}`}>
         <main className="wrapper bg-white min-h-[700px] lg:w-[1024px] mx-auto p-7 mt-4">
           <Header />
-          <div className="mt-6">{children}</div>
+          <div className="mt-6">
+            <div className="content grid grid-cols-[1fr_300px] gap-6">
+              {children}
+              <FreeQuoteForm />
+            </div>
+          </div>
         </main>
         <Footer />
       </body>

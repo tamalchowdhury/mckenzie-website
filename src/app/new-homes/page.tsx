@@ -39,11 +39,11 @@ export default function NewHomesPage() {
 
       <section className="flex flex-wrap flex-column gap-4 my-8">
         {items.map((item) => (
-          <div key={item.title} className="flex gap-4 mb-4">
-            <div className="w-1/2">
+          <div key={item.title} className="lg:flex gap-4 mb-4">
+            <div className="lg:w-1/2 mb-4 lg:mb-0">
               <Image src={item.image} alt={item.title} />
             </div>
-            <div className="w-1/2">
+            <div className="lg:w-1/2">
               <h2 className="text-[#841618] font-bold text-xl">{item.title}</h2>
               <p>{item.description}</p>
             </div>

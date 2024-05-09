@@ -33,14 +33,14 @@ const routes = [
 export default function Header() {
   return (
     <>
-      <header className="header flex">
-        <div className="logo">
+      <header className="header lg:flex ">
+        <div className="logo flex justify-center">
           <Link href="/">
             <Image src={logo} alt="Mckenzie and Paz Builders logo"></Image>
           </Link>
         </div>
-        <nav className="nav border-b-8 border-[#841618] w-[100%] flex items-center uppercase font-[300]">
-          <ul className="flex justify-between ml-6 w-[100%]">
+        <nav className="nav border-b-8 border-[#841618] lg:w-[100%] flex  items-center uppercase font-[300] ">
+          <ul className="flex justify-between flex-wrap my-4 lg:ml-6 w-[100%] gap-2">
             {routes.map((route, index) => (
               <li key={index}>
                 <Link

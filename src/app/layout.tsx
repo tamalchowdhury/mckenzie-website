@@ -20,10 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`bg-[#78878B] h-screen ${inter.className}`}>
-        <main className="wrapper bg-white min-h-[700px] lg:w-[1024px] mx-auto p-7 mt-4">
+        <main className="wrapper bg-white min-h-[700px] lg:w-[1024px] mx-auto lg:p-7 p-2 lg:mt-4">
           <Header />
           <div className="mt-6">
-            <div className="content grid grid-cols-[1fr_300px] gap-6">
+            <div className="content grid lg:grid-cols-[1fr_300px] lg:items-start gap-6">
               {children}
               <FreeQuoteForm />
             </div>

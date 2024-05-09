@@ -15,7 +15,7 @@ export default function RenovationsPage() {
         full-scale renovation, we bring the same level of dedication and
         craftsmanship to each project.
       </p>
-      <section className="flex gap-4 my-8">
+      <section className="flex flex-col lg:flex-row gap-4 my-8">
         <div className="w-full md:w-1/3">
           <Image src={homeDiy} alt="Home DIY" />
         </div>

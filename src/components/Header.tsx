@@ -1,7 +1,11 @@
+"use client"
+
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 import logo from "@/img/logo.jpg"
+import { usePathname } from "next/navigation"
+import clsx from "clsx"
 
 const routes = [
   {
@@ -31,6 +35,8 @@ const routes = [
 ]
 
 export default function Header() {
+  const activePath = usePathname()
+
   return (
     <>
       <header className="header lg:flex ">
@@ -45,7 +51,9 @@ export default function Header() {
               <li key={index}>
                 <Link
                   href={route.path}
-                  className="hover:text-accent transition"
+                  className={clsx("hover:text-accent transition", {
+                    "text-accent font-bold": activePath === route.path,
+                  })}
                 >
                   {route.name}
                 </Link>

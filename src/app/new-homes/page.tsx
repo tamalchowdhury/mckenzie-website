@@ -50,7 +50,6 @@ export default function NewHomesPage() {
           </div>
         ))}
       </section>
-
       <p>
         Love to own one of these new homes? Contact us today to schedule a
         consultation. Let us show you how McKenzie and Pez Builders can bring

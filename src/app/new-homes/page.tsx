@@ -37,7 +37,7 @@ export default function NewHomesPage() {
         manages every aspect, ensuring a cohesive and stunning transformation.
       </p>
 
-      <section className="flex flex-wrap flex-column gap-4 my-8">
+      <section className="flex flex-wrap flex-column gap-4 mt-8">
         {items.map((item) => (
           <div key={item.title} className="lg:flex gap-4 mb-4">
             <div className="lg:w-1/2 mb-4 lg:mb-0">

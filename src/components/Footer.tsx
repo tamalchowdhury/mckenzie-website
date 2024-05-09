@@ -6,7 +6,10 @@ export default function Footer() {
     <>
       <footer className="footer text-center p-4 text-lg lg:text-sm text-white/70">
         &copy;2024 <strong>McKenzie & Paz Builders</strong> - Developed By{" "}
-        <Link href="https://tamalchowdhury.com" className="text-[#841618]">
+        <Link
+          href="https://www.linkedin.com/in/tamalchowdhury/"
+          className="text-[#841618]"
+        >
           Tamal Chowdhury
         </Link>
       </footer>

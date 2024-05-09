@@ -6,6 +6,13 @@ import homeDiy from "@/img/home-diy.jpg"
 import homePaint from "@/img/home-paint.jpg"
 import homeKitchen from "@/img/home-kitchen.jpg"
 
+import { Metadata } from "next"
+import siteInfo from "../meta"
+
+export const metadata: Metadata = {
+  title: `Renovations - ${siteInfo.title}`,
+}
+
 export default function RenovationsPage() {
   return (
     <div>

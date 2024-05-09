@@ -1,6 +1,13 @@
 import Headline from "@/components/Headline"
 import React from "react"
 
+import { Metadata } from "next"
+import siteInfo from "../meta"
+
+export const metadata: Metadata = {
+  title: `Free Quote - ${siteInfo.title}`,
+}
+
 export default function FreeQuotePage() {
   return (
     <div>

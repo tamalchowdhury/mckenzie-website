@@ -1,6 +1,13 @@
 import Headline from "@/components/Headline"
 import React from "react"
 
+import { Metadata } from "next"
+import siteInfo from "../meta"
+
+export const metadata: Metadata = {
+  title: `Contact - ${siteInfo.title}`,
+}
+
 export default function ContactPage() {
   return (
     <div>

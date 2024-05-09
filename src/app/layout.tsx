@@ -4,11 +4,12 @@ import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import FreeQuoteForm from "@/components/FreeQuoteForm"
+import siteInfo from "@/app/meta"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "McKenzie & Paz Builders",
+  title: siteInfo.title,
   description: "McKenzie & Paz Builders",
 }
 

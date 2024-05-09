@@ -5,6 +5,12 @@ import Image from "next/image"
 import heroHome from "@/img/hero-home.jpg"
 import home2 from "@/img/home-2.jpg"
 import home3 from "@/img/home-3.jpg"
+import siteInfo from "../meta"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: `New Homes - ${siteInfo.title}`,
+}
 
 const items = [
   {

@@ -11,7 +11,7 @@ export default async function BlogPage() {
       <div>
         {data.posts.map((post) => (
           <div key={post.id} className="mb-6">
-            <h2 className="text-[#841618] font-bold text-xl mb-2">{post.title}</h2>
+            <h2 className="text-accent font-bold text-xl mb-2">{post.title}</h2>
             <p>{post.body}</p>
           </div>
         ))}

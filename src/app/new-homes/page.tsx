@@ -44,7 +44,7 @@ export default function NewHomesPage() {
               <Image src={item.image} alt={item.title} />
             </div>
             <div className="lg:w-1/2">
-              <h2 className="text-[#841618] font-bold text-xl">{item.title}</h2>
+              <h2 className="text-accent font-bold text-xl">{item.title}</h2>
               <p>{item.description}</p>
             </div>
           </div>

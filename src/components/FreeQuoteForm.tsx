@@ -31,7 +31,7 @@ export default function FreeQuoteForm() {
   return (
     <>
       <section className="free-quote  bg-[#E1DCC6] border-[1px] border-[#C1B594] p-5">
-        <h2 className="font-bold uppercase text-xl text-[#841618] mb-4">
+        <h2 className="font-bold uppercase text-xl text-accent mb-4">
           Get A Free Quote
         </h2>
         <p className="text-[14px] mb-4">
@@ -62,13 +62,13 @@ export default function FreeQuoteForm() {
           ))}
           <button
             type="submit"
-            className="block w-full bg-[#841618] p-2 mb-2 font-bold text-white/90 hover:text-white rounded-md uppercase transition"
+            className="block w-full bg-accent p-2 mb-2 font-bold text-white/90 hover:text-white rounded-md uppercase transition"
           >
             Get a Quote
           </button>
           <small className="text-xs">
             We respect your privacy.{" "}
-            <a href="#" className="text-[#841618]">
+            <a href="#" className="text-accent">
               Privacy Policy
             </a>
           </small>

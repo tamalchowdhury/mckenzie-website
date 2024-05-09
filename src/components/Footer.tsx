@@ -8,7 +8,7 @@ export default function Footer() {
         &copy;2024 <strong>McKenzie & Paz Builders</strong> - Developed By{" "}
         <Link
           href="https://www.linkedin.com/in/tamalchowdhury/"
-          className="text-[#841618]"
+          className="text-accent"
         >
           Tamal Chowdhury
         </Link>

@@ -39,13 +39,13 @@ export default function Header() {
             <Image src={logo} alt="Mckenzie and Paz Builders logo"></Image>
           </Link>
         </div>
-        <nav className="nav border-b-8 border-[#841618] lg:w-[100%] flex  items-center uppercase font-[300] ">
+        <nav className="nav border-b-8 border-accent lg:w-[100%] flex  items-center uppercase font-[300] ">
           <ul className="flex justify-between flex-wrap my-4 lg:ml-6 w-[100%] gap-2">
             {routes.map((route, index) => (
               <li key={index}>
                 <Link
                   href={route.path}
-                  className="hover:text-[#841618] transition"
+                  className="hover:text-accent transition"
                 >
                   {route.name}
                 </Link>
